@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lacquer&family=Lobster&family=Oswald:wght@600&family=Poppins&display=swap');*{
+    
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+#navbar{
+
+    background-color: cyan;
+    padding: 13px 14px;
+    font-size: 1.4rem;
+    font-family: 'Lobster', cursive;
+
+    background-color: black;
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    
+    padding: 13px 30px;
+}
+#navbar li a:hover {
+    text-decoration: none;
+    color: #454545;
+    
+    padding: 13px 30px;
+}
+#introSection{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    flex-direction: column;
+    font-size: 2rem;
+    align-items: center;
+    background: center / cover no-repeat url("../static/R.jpg");
+    height: 300px;
+}
+#introSection div.small{
+    font-size: 1.2rem;
+}
+#sponsersSection{
+    height: 300px;
+    background-color: #454545;
+    
+}
+#sponsersSection hr{
+    background-color: black;
+    
+}
+#sponsersSection h2{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: whitesmoke;
+    font-family: 'Lobster', cursive;
+
+}
+
+#footer{
+    height: 100px;
+    background-color: black;
+
+}
