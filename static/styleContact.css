@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lacquer&family=Lobster&family=Oswald:wght@600&family=Poppins&display=swap');
+*{
+    font-family: 'Lobster', cursive;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin: 12px;
+}
+.myInput{
+    width: 96%;
+    padding: 1vh;
+    border: 2px solid black;
+    margin: 1.5vh;
+    border-radius: 11px;
+}
+.btn{
+    padding: 6px 18px;
+    font-size: 16px;
+    margin: 12px 0px;
+    border: 2px solid black;
+    color: white;
+    background: #595959;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.container{
+    margin: 48px auto;
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 35px;
+    background: #a1a1a1;
+}

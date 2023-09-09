@@ -1,21 +1,13 @@
-doctype html
-html 
-    head
-        title Priyanshu's Dance Academy
-        style 
-            include ../static/style.css 
-    body 
-        nav#navbar
-            ul
-                div#logo
-                    img(src="/static/logo.png")
-                    | HDA
-                li #[a(href="/") Home]
-                li #[a(href="/") About ]
-                li #[a(href="/") Services]
-                li #[a(href="/") Class info ]
-                li #[a(href="/") Contact Us ]
+extends base.pug
 
+block scripts 
+    scripts(src="/static/index.js")
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content 
         section#introSection 
             div Welcome to priyanshu's dance academy.
             div.small Eat sleep dance repeat.
@@ -59,9 +51,6 @@ html
                 img(src="/static/hplogo.png", alt="Sponcers" , class="spImages")
                 img(src="/static/microsoftlogo.png", alt="Sponcers" , class="spImages")
                 img(src="/static/skypelogo.png", alt="Sponcers" , class="spImages")
-                
-        
-        footer#footer 
-            | Copyright © 2019 priyanshudanceacademy.com | All rights reserved
-        script 
-            include ../static/index.js 
+
+
+                                                                                                                                                                                                                                   
